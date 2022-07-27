@@ -1,0 +1,59 @@
+{% extends 'layout.html' %} {% block title %}Perfil{% endblock %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>inicio</title>
+</head>
+
+<body style="background-image: url(https://www.comunidadbaratz.com/wp-content/uploads/La-biblioteca-es-inclusion-social-e-igualdad-de-oportunidades.jpg);">
+
+
+
+
+    <div class="container">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+        <br/>
+        <p class="escogasulibro">REGISTRO DE PRESTAMOS DE LIBROS!</p><br>
+        <a href="{{url_for('create_libro')}}" class="btn btn-success">
+        Ingresar nuevo libro
+        </a>
+        <br>
+        <br>
+
+        <table class="table table-primary">
+            <thead class="thead-danger">
+                <tr>
+                    <th>Libro</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for empleado in lib %}
+                <tr>
+                    <td>{{empleado[1]}}</td>
+                    <td>{{empleado[2]}}</td>
+
+                    <td>
+                        <a class="btn btn-danger" href="/destroy_1/{{empleado[0]}}">Eliminar</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
+
+{% endblock %}

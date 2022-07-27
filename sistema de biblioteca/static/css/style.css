@@ -1,0 +1,500 @@
+body {
+    background-color: #00050b;
+    margin: 0;
+    background-image: url("https://www.comunidadbaratz.com/wp-content/uploads/La-biblioteca-es-inclusion-social-e-igualdad-de-oportunidades.jpg");
+}
+
+.login-box {
+    height: 50%;
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 35%;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 21px 12px 24px 10px rgba(0, 0, 0, .5);
+    background: #0c0f00;
+    color: white;
+}
+
+.login-header {
+    text-align: center;
+    font-family: "vardhana", cursive;
+    font-size: 35px;
+    background: linear-gradient(to bottom, #00bfff 0%, #000024 100%);
+    color: #fff;
+    position: relative;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .5);
+}
+
+.login-body {
+    padding: 20px;
+    line-height: 2;
+}
+
+.msg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.login-box {
+    height: 50%;
+    width: 30%;
+    border: 1px solid rgb(243, 6, 6);
+    margin-left: 35%;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 21px 12px 24px 10px rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .85);
+    color: white;
+    font-weight: bold;
+    /*negrita*/
+}
+
+.login-header {
+    text-align: center;
+    font-family: "vardhana", cursive;
+    font-size: 35px;
+    background: linear-gradient(to bottom, #00bfff 0%, #0000ff 100%);
+    color: #fff;
+    position: relative;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .5);
+    background-image: url("https://i.gifer.com/4yY0.gif");
+}
+
+.login-body {
+    padding: 20px;
+    line-height: 2;
+}
+
+.msg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+hr {
+    width: 10%;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login {
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+    height: auto!important;
+    padding: 8px 12px !important;
+}
+
+.input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+}
+
+.main-center {
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px 40px;
+    background: #000000;
+    color: #FFF;
+    text-shadow: none;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+}
+
+span.input-group-addon i {
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.login-button {
+    margin-top: 5px;
+}
+
+.login-register {
+    font-size: 11px;
+    text-align: center;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: red;
+    background-size: 20px;
+}
+
+a.py-2.d-none.d-md-inline-block {
+    color: white;
+    font-size: 16px;
+}
+
+nav.site-header.sticky-top.py-1 {
+    background-color: black;
+    padding: 10px 10px;
+    background-image: url("https://i.gifer.com/4yY0.gif");
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /*negrita*/
+}
+
+.sidebar {
+    background-image: url("https://i.gifer.com/4yY0.gif");
+    font-weight: bold;
+    /*negrita*/
+}
+
+input.form-control.btn.btn-primary {
+    background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");
+    color: black;
+    font-weight: bold;
+    /*negrita*/
+}
+
+a.btn.btn-dark-login {
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    /*negrita*/
+    /*negrita*/
+}
+
+input.form-control.btn.btn-success {
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    /*negrita*/
+    /*negrita*/
+}
+
+.div.container {
+    background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");
+    color: black;
+    font-weight: bold;
+    /*negrita*/
+}
+
+a.btn.btn-danger {
+    background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");
+    color: black;
+    font-weight: bold;
+    /*negrita*/
+}
+
+a.btn.btn-dark {
+    background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");
+    color: black;
+    font-weight: bold;
+    /*negrita*/
+}
+
+.container-table table-dark {
+    background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");
+    color: black;
+    font-weight: bold;
+    /*negrita*/
+}
+
+p.hh {
+    font-size: 30px;
+    background-image: url("https://i.pinimg.com/originals/cf/40/4a/cf404a796c7c2b9c6eff91748f7a2902.gif");
+    font-weight: bold;
+    /*negrita*/
+    text-align: center;
+}
+
+p.escogasulibro {
+    font-size: 30px;
+    background-image: url("https://i.pinimg.com/originals/cf/40/4a/cf404a796c7c2b9c6eff91748f7a2902.gif");
+    /* background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");*/
+    font-weight: bold;
+    /*negrita*/
+    text-align: center;
+    columns: black;
+}
+
+p.usuario {
+    color: lime;
+    background-size: 20px;
+}
+
+p.sincuenta {
+    color: lime;
+    background-size: 20px;
+}
+
+a.registrarse {
+    color: lime;
+    background-size: 20px;
+}
+
+.listadelibros {
+    font-size: 30px;
+    background-image: url("https://i.pinimg.com/originals/cf/40/4a/cf404a796c7c2b9c6eff91748f7a2902.gif");
+    /* background-image: url("https://i.pinimg.com/originals/3d/46/2f/3d462ff1128426d00eea5dfe8efd25fb.gif");*/
+    font-weight: bold;
+    /*negrita*/
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.total {
+    background-color: rgba(200, 190, 190, 0.733);
+    padding: 10px 10px;
+    font-family: 'Pangolin', cursive;
+}
+
+.tab {
+    background-color: rgba(235, 224, 224, 0.789);
+    background-size: 20px;
+    padding: 15px 340px;
+    /*font-family: 'Pangolin', cursive;*/
+    text-align: center;
+    border: 1px solid #0069fd;
+    overflow: hidden;
+    font-family: "Homer Simpson UI";
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1.h2 {
+    font-size: 100px;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h1.h2 span {
+    color: #d5be8d;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.hh {
+    font-family: 'Pangolin', cursive;
+}
+
+.cuad {
+    background-color: #454340cb;
+    background-size: 120px;
+    padding: 30px 230px;
+    font-family: 'Pangolin', cursive;
+    border-radius: .50rem;
+}
+
+.gaa {
+    background-color: #fffefdcb;
+    background-size: 120px;
+    padding: 30px 230px;
+    font-family: 'Pangolin', cursive;
+    border-radius: .50rem;
+}
+
+.h {
+    color: #034b9d;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: #a7a7a7cb;
+}
+
+.foto1 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
+
+.pi {
+    text-align: center;
+}
+
+input.btn.btn-danger {
+    font-size: 30px;
+    background-image: url("https://i.pinimg.com/originals/cf/40/4a/cf404a796c7c2b9c6eff91748f7a2902.gif");
+    font-weight: bold;
+    /*negrita*/
+    text-align: center;
+}
+
+
+/*tabla imprimir_lista_de _libros*/
+
+td.tab {
+    background-color: #bdd7fb;
+}
+
+th.tab {
+    background-color: rgb(56, 178, 248);
+}
+
+.registronuevousuario {
+    color: lime;
+    background-size: 10px;
+}
+
+p.l1 {
+    color: rgb(0, 0, 255);
+    font-size: 90px;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #4aabff;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    border: 2px solid #008bfd;
+    font-family: "Homer Simpson UI";
+}
+
+div.l {
+    color: rgb(80, 170, 255);
+    font-size: 40px;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #050505;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #fcf3fd;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 2px solid #78bcf8;
+    font-family: "Homer Simpson UI";
+}
+
+div.l2 {
+    color: rgb(80, 211, 255);
+    font-size: 40px;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #050505;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #fcf3fd;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px;
+    -moz-border-radius: 0px 0px 30px 30px;
+    -webkit-border-radius: 0px 0px 30px 30px;
+    border: 2px solid #328eff;
+    font-family: "Homer Simpson UI";
+}
+
+
+/* estilos de botones*/
+
+a.btnu {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #329cff;
+    box-shadow: 0 5px 5px #81c6ff, 0 9px 0 #393939, 0px 9px 10px rgba(0, 0, 0, 0.4), inset 0px 2px 9px rgba(255, 255, 255, 0.2), inset 0 -2px 9px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans;
+    text-shadow: 0px -1px 0px rgba(135, 253, 9, 0.2);
+}
+
+a.btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #3287ff;
+    box-shadow: 0 20px 20px #87b1f9, 0 12px 0 #ff5555, 0px 12px 10px rgba(0, 0, 0, 0.4), inset 0px 2px 9px rgba(255, 255, 255, 0.2), inset 0 -2px 9px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans;
+    text-shadow: 0px -4px 0px rgba(0, 0, 0, 0.818);
+}

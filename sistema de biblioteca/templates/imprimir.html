@@ -1,0 +1,58 @@
+{% extends 'layout.html' %} {% block title %}constancia de prestamo{% endblock %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div>
+    <p class="l1">LA MEJOR BIBLIOTECA DIGITAL MYC</p>
+    <div class="l">
+        <p><b>CONSTANCIA DE PRESTAMO</b></p>
+        <br>
+        <p>la biblioteca digital MYC, por medio de la presente HAGO CONSTAR</p>
+        <P>QUE: se este realizando prestamos de los siguientes libros:</P>
+    </div>
+    <table class="tab">
+        <thead>
+            <tr class="tab">
+                <th class="tab">Libro</th>
+                <th class="tab">Fecha</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for empleado in lib %}
+            <tr>
+                <td class="tab">{{empleado[1]}}</td>
+
+                <td class="tab">{{empleado[2]}}</td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<br>
+<div class="l2">
+    <h4>para el prestatario: {{ account['fullname'] }}, con email: {{ account['email'] }}</h4>
+    <br>
+    <h4>Gracias por preferir a la <b>BIBLIOTECA DIGITAL  MYC </b> </h4>
+    <h4>Que tenga un excelente día</h4>
+    <br>
+</div>
+<table>
+
+</table>
+<a href="{{url_for('.imprimir_cons')}}" class="btn btn-outline-secondary" id="s">IMPRIMIR LISTA DE LIBROS</a>
+
+</html>
+
+{% endblock %}
+
+<style>
+
+</style>

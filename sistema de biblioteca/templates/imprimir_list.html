@@ -1,0 +1,40 @@
+{% extends 'layout.html' %} {% block title %}Home{% endblock %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p class="l1">LA MEJOR BIBLIOTECA DIGITAL MYC</p>
+<div class="l">
+    <p><b>LISTA DE LIBROS</b></p>
+</div>
+<br>
+
+<table class="tab">
+    <thead>
+        <tr>
+            <th class="tab">Nº</th>
+            <th class="tab">Libros</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for empleado in libros %}
+        <tr>
+            <td class="tab">{{empleado[0]}}</td>
+            <td class="tab">{{empleado[1]}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<br>
+<a class="btn btn-outline-secondary" href="{{url_for('.imprimir_librosss')}}" id="sd">IMPRIMIR LISTA DE LIBROS</a>
+
+</html>
+
+{% endblock %}
